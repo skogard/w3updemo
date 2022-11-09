@@ -14,6 +14,39 @@ a {
 * {
   box-sizing: border-box;
 }
+form {
+  max-width: 400px;
+  width: 100%;
+}
+p {
+  padding: 20px;
+  background: rgba(0,0,0,0.1);
+}
+pre:not(:empty) {
+  padding: 10px;
+  background: whitesmoke;
+  color: black;
+  font-size: 12px;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+input[type=email] {
+  border: none;
+  padding: 10px;
+  border-radius: 0;
+}
+input[type=submit] {
+  padding: 10px;
+  border-radius: 0;
+  border: none;
+  background: black;
+  color: white;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
